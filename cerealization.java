@@ -2,7 +2,7 @@ import java.util.*;
 import javax.swing.*;
 import java.io.*;
 
-public class Ca1practice {
+public class Cerealization {
 
     public static void main(String[] args) throws Exception {
         int userOption;

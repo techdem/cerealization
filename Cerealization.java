@@ -11,6 +11,9 @@ public class Cerealization {
         ArrayList<Name> secondList = new ArrayList<>();
         String[] options = new String[] {"Display First List", "Display Second List", "Add Name to First List", "Add Name to Second List", "Search Second List"};
 
+        writeList(firstList, true);
+        writeList(secondList, false);
+        
         do {
             userOption = JOptionPane.showOptionDialog(null, "Please choose one of the following options: ", "Ryanair", 0, JOptionPane.INFORMATION_MESSAGE, null, options, null);
             System.out.println("User selection: " + userOption);
